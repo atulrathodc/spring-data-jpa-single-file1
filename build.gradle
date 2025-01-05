@@ -1,0 +1,107 @@
+apply from: 'plugins.gradle'
+group = 'com.learnkafkastreams'
+version = '0.0.1-SNAPSHOT'
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
+}
+println("directories111:")
+//println(srcDirs.getSrcDirs())
+//sourceSets {
+//    custom {
+//        java {
+////            srcDirs += file('/Users/atul/Documents/run/code/communication/spring-data-jpa-single-file1/lib/main/java')
+////            srcDirs += file('/Users/atul/Documents/run/code/communication/spring-data-jpa-single-file1/lib6/main/java')
+////            srcDirs += file('/Users/atul/Documents/run/code/communication/spring-data-jpa-single-file4/src/main')
+//            srcDirs += file('/Users/atul/Documents/run/code/communicationmulti/spring-data-jpa-single-file5/src/main/java')
+////            srcDirs += file('/Users/atul/Documents/run/code/communication/spring-data-jpa-single-file6/src/main')
+//        }
+//        resources {
+////            srcDirs += file('/Users/atul/Documents/run/code/communication/spring-data-jpa-single-file1/lib/main/resources')
+////            srcDirs += file('/Users/atul/Documents/run/code/communication/spring-data-jpa-single-file1/lib6/main/resources')
+////            srcDir '/Users/atul/Documents/run/code/communication/spring-data-jpa-single-file4/src/resources'  // Optional: Add resource directory
+//        }
+//    }
+//}
+repositories {
+    mavenLocal() // Add this if it's not already included
+    mavenCentral() // Or any other repository you use
+}
+
+configurations {
+    compileOnly {
+        extendsFrom annotationProcessor
+    }
+}
+sonarqube {
+    properties {
+        property "sonar.projectKey", "ABC"
+        property "sonar.host.url", "http://localhost:9000"
+        property "sonar.login", "sqp_3b453fb5f3e71f70170588d8c34651a8fd32e876"
+    }
+}
+
+jacocoTestReport {
+    dependsOn test
+    reports {
+        xml.required = true
+        html.required = true
+    }
+}
+
+sonarqube {
+    properties {
+        property "sonar.jacoco.reportPaths", "${buildDir}/reports/jacoco/test/jacocoTestReport.xml"
+    }
+}
+dependencies {
+//    implementation sourceSets.main.output
+//    implementation files(sourceSets.main.runtimeClasspath)
+//    implementation files(sourceSets.main.output.classesDirs)
+//    implementation files(sourceSets.main.output.resourcesDir)
+//    implementation sourceSets.main.output
+//    implementation files('/Users/atul/Documents/run/code/communication/spring-data-jpa-single-file4/build/classes/java/main')
+//    implementation files('/Users/atul/Documents/run/code/communication/spring-data-jpa-single-file5/build/classes/java/main')
+//    implementation files('/Users/atul/Documents/run/code/communication/spring-data-jpa-single-file6/build/classes/java/main')
+//    implementation project(':spring-data-jpa-single-file5')
+    implementation 'org.springframework.boot:spring-boot-starter-validation'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.springframework.boot:spring-boot-starter-freemarker'
+    implementation 'org.springframework.boot:spring-boot-starter-webflux'
+    implementation 'com.tsys:spring-data-jpa-single-file5:0.0.2-SNAPSHOT'
+//    implementation files("/Users/atul/Documents/run/code/communicationmulti/spring-data-jpa-single-file5/build/libs/custom-artifact-name-0.0.2-SNAPSHOT-all.jar")
+//    implementation files("/Users/atul/Documents/run/code/communicationmulti/spring-data-jpa-single-file4/build/libs/spring-data-jpa-single-file4-0.0.1-SNAPSHOT-plain.jar")
+//    implementation files("/Users/atul/Documents/run/code/communicationmulti/spring-data-jpa-single-file5/build/libs/custom-artifact-name-0.0.1-SNAPSHOT.jar")
+//    implementation files("/Users/atul/Documents/run/code/communicationmulti/spring-data-jpa-single-file4/build/libs/spring-data-jpa-single-file4-0.0.1-SNAPSHOT-plain.jar")
+    //lombok
+    compileOnly 'org.projectlombok:lombok'
+    annotationProcessor 'org.projectlombok:lombok'
+
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    implementation 'com.mysql:mysql-connector-j:8.0.33'
+    //kafka
+    implementation 'org.apache.kafka:kafka-streams'
+    implementation 'org.springframework.kafka:spring-kafka'
+//    implementation sourceSets.custom.output
+
+    //test
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    testImplementation 'org.springframework.kafka:spring-kafka-test'
+    testImplementation 'org.apache.kafka:kafka-streams-test-utils:3.3.1'
+    testImplementation 'org.awaitility:awaitility:4.2.0'
+
+}
+// Use custom source set output in the main source set
+//dependencies {
+//    implementation sourceSets.custom.output
+//}
+tasks.named('test') {
+    useJUnitPlatform()
+}
+tasks.named('compileJava') {
+    doFirst {
+        println classpath.asPath
+    }
+}

@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3384974b-f32f-43c7-991b-6109af835ef5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/spring-data-jpa-single-file1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/spring-data-jpa-single-file1.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/spring-data-jpa-single-file4.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/default/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/default/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/default/src/main/resources/templates/welocme.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dailycodebuffer/spring/data/jpa/tutorial/SpringDataJpaTutorialApplication1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/paymentRequest.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/welocme.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/dailycodebuffer/spring/data/jpa/tutorial/SpringDataJpasTutorialApplicationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-data-jpa-single-file4/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-data-jpa-single-file4/src/main/java/com/tsys/TestUtill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-data-jpa-single-file4/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-data-jpa-single-file4/src/main/resources/templates/welocme.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-data-jpa-single-file4/src/test/java/com/dailycodebuffer/spring/data/jpa/tutorial/SpringDataJpasTutorialApplicationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/consolestorage/flexible_search_region.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/consolestorage/solr_region.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/hybrisProjectSettings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/default/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/default/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/default/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/default/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/default/.idea/consolestorage/flexible_search_region.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/default/.idea/consolestorage/solr_region.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/default/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/default/.idea/hybrisProjectSettings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/default/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/default/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/default/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/default/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/default/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/default/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/default/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bin/default/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/default/src/main/java/com/dailycodebuffer/spring/data/jpa/tutorial/SpringDataJpaTutorialApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/default/src/main/java/com/dailycodebuffer/spring/data/jpa/tutorial/entity/Address.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/default/src/main/java/com/dailycodebuffer/spring/data/jpa/tutorial/entity/Course.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/default/src/main/java/com/dailycodebuffer/spring/data/jpa/tutorial/entity/CourseMaterial.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/default/src/main/java/com/dailycodebuffer/spring/data/jpa/tutorial/entity/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/default/src/main/java/com/dailycodebuffer/spring/data/jpa/tutorial/entity/Customer1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/default/src/main/java/com/dailycodebuffer/spring/data/jpa/tutorial/entity/Guardian.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/default/src/main/java/com/dailycodebuffer/spring/data/jpa/tutorial/entity/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/default/src/main/java/com/dailycodebuffer/spring/data/jpa/tutorial/entity/Teacher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/default/src/main/java/com/dailycodebuffer/spring/data/jpa/tutorial/repository/CourseMaterialRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/default/src/main/java/com/dailycodebuffer/spring/data/jpa/tutorial/repository/CourseRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/default/src/main/java/com/dailycodebuffer/spring/data/jpa/tutorial/repository/CustomerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/default/src/main/java/com/dailycodebuffer/spring/data/jpa/tutorial/repository/CustomerRepository1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/default/src/main/java/com/dailycodebuffer/spring/data/jpa/tutorial/repository/StudentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/default/src/main/java/com/dailycodebuffer/spring/data/jpa/tutorial/repository/TeacherRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/default/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/bin/default/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/default/src/test/java/com/dailycodebuffer/spring/data/jpa/tutorial/repository/CourseMaterialRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/default/src/test/java/com/dailycodebuffer/spring/data/jpa/tutorial/repository/CourseRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/default/src/test/java/com/dailycodebuffer/spring/data/jpa/tutorial/repository/CustomerRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/default/src/test/java/com/dailycodebuffer/spring/data/jpa/tutorial/repository/StudentRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/default/src/test/java/com/dailycodebuffer/spring/data/jpa/tutorial/repository/TeacherRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/default/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/default/target/classes/com/dailycodebuffer/spring/data/jpa/tutorial/SpringDataJpaTutorialApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/default/target/classes/com/dailycodebuffer/spring/data/jpa/tutorial/entity/Address$AddressBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/default/target/classes/com/dailycodebuffer/spring/data/jpa/tutorial/entity/Address.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/default/target/classes/com/dailycodebuffer/spring/data/jpa/tutorial/entity/Course$CourseBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/default/target/classes/com/dailycodebuffer/spring/data/jpa/tutorial/entity/Course.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/default/target/classes/com/dailycodebuffer/spring/data/jpa/tutorial/entity/CourseMaterial$CourseMaterialBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/default/target/classes/com/dailycodebuffer/spring/data/jpa/tutorial/entity/CourseMaterial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/default/target/classes/com/dailycodebuffer/spring/data/jpa/tutorial/entity/Customer$CustomerBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/default/target/classes/com/dailycodebuffer/spring/data/jpa/tutorial/entity/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/default/target/classes/com/dailycodebuffer/spring/data/jpa/tutorial/entity/Customer1$Customer1Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/default/target/classes/com/dailycodebuffer/spring/data/jpa/tutorial/entity/Customer1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/default/target/classes/com/dailycodebuffer/spring/data/jpa/tutorial/entity/Guardian$GuardianBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/default/target/classes/com/dailycodebuffer/spring/data/jpa/tutorial/entity/Guardian.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/default/target/classes/com/dailycodebuffer/spring/data/jpa/tutorial/entity/Student$StudentBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/default/target/classes/com/dailycodebuffer/spring/data/jpa/tutorial/entity/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/default/target/classes/com/dailycodebuffer/spring/data/jpa/tutorial/entity/Teacher$TeacherBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/default/target/classes/com/dailycodebuffer/spring/data/jpa/tutorial/entity/Teacher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/default/target/classes/com/dailycodebuffer/spring/data/jpa/tutorial/repository/CourseMaterialRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/default/target/classes/com/dailycodebuffer/spring/data/jpa/tutorial/repository/CourseRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/default/target/classes/com/dailycodebuffer/spring/data/jpa/tutorial/repository/CustomerRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/default/target/classes/com/dailycodebuffer/spring/data/jpa/tutorial/repository/CustomerRepository1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/default/target/classes/com/dailycodebuffer/spring/data/jpa/tutorial/repository/StudentRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/default/target/classes/com/dailycodebuffer/spring/data/jpa/tutorial/repository/TeacherRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/default/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/default/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/default/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/default/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/default/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/default/target/spring-data-jpa-tutorial-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/default/target/spring-data-jpa-tutorial-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/default/target/surefire-reports/TEST-com.dailycodebuffer.spring.data.jpa.tutorial.repository.CourseRepositoryTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/default/target/surefire-reports/TEST-com.dailycodebuffer.spring.data.jpa.tutorial.repository.CustomerRepositoryTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/default/target/surefire-reports/TEST-com.dailycodebuffer.spring.data.jpa.tutorial.repository.TeacherRepositoryTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/default/target/surefire-reports/com.dailycodebuffer.spring.data.jpa.tutorial.repository.CourseRepositoryTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/default/target/surefire-reports/com.dailycodebuffer.spring.data.jpa.tutorial.repository.CustomerRepositoryTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/default/target/surefire-reports/com.dailycodebuffer.spring.data.jpa.tutorial.repository.TeacherRepositoryTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/default/target/test-classes/com/dailycodebuffer/spring/data/jpa/tutorial/repository/CourseMaterialRepositoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/default/target/test-classes/com/dailycodebuffer/spring/data/jpa/tutorial/repository/CourseRepositoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/default/target/test-classes/com/dailycodebuffer/spring/data/jpa/tutorial/repository/CustomerRepositoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/default/target/test-classes/com/dailycodebuffer/spring/data/jpa/tutorial/repository/StudentRepositoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/default/target/test-classes/com/dailycodebuffer/spring/data/jpa/tutorial/repository/TeacherRepositoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dailycodebuffer/spring/data/jpa/tutorial/SpringDataJpaTutorialApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dailycodebuffer/spring/data/jpa/tutorial/entity/Address.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dailycodebuffer/spring/data/jpa/tutorial/entity/Course.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dailycodebuffer/spring/data/jpa/tutorial/entity/CourseMaterial.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dailycodebuffer/spring/data/jpa/tutorial/entity/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dailycodebuffer/spring/data/jpa/tutorial/entity/Customer1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dailycodebuffer/spring/data/jpa/tutorial/entity/Guardian.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dailycodebuffer/spring/data/jpa/tutorial/entity/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dailycodebuffer/spring/data/jpa/tutorial/entity/Teacher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dailycodebuffer/spring/data/jpa/tutorial/repository/CourseMaterialRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dailycodebuffer/spring/data/jpa/tutorial/repository/CourseRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dailycodebuffer/spring/data/jpa/tutorial/repository/CustomerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dailycodebuffer/spring/data/jpa/tutorial/repository/CustomerRepository1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dailycodebuffer/spring/data/jpa/tutorial/repository/StudentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dailycodebuffer/spring/data/jpa/tutorial/repository/TeacherRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/dailycodebuffer/spring/data/jpa/tutorial/repository/CourseMaterialRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/dailycodebuffer/spring/data/jpa/tutorial/repository/CourseRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/dailycodebuffer/spring/data/jpa/tutorial/repository/CustomerRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/dailycodebuffer/spring/data/jpa/tutorial/repository/StudentRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/dailycodebuffer/spring/data/jpa/tutorial/repository/TeacherRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dailycodebuffer/spring/data/jpa/tutorial/SpringDataJpaTutorialApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dailycodebuffer/spring/data/jpa/tutorial/entity/Address$AddressBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dailycodebuffer/spring/data/jpa/tutorial/entity/Address.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dailycodebuffer/spring/data/jpa/tutorial/entity/Course$CourseBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dailycodebuffer/spring/data/jpa/tutorial/entity/Course.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dailycodebuffer/spring/data/jpa/tutorial/entity/CourseMaterial$CourseMaterialBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dailycodebuffer/spring/data/jpa/tutorial/entity/CourseMaterial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dailycodebuffer/spring/data/jpa/tutorial/entity/Customer$CustomerBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dailycodebuffer/spring/data/jpa/tutorial/entity/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dailycodebuffer/spring/data/jpa/tutorial/entity/Customer1$Customer1Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dailycodebuffer/spring/data/jpa/tutorial/entity/Customer1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dailycodebuffer/spring/data/jpa/tutorial/entity/Guardian$GuardianBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dailycodebuffer/spring/data/jpa/tutorial/entity/Guardian.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dailycodebuffer/spring/data/jpa/tutorial/entity/Student$StudentBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dailycodebuffer/spring/data/jpa/tutorial/entity/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dailycodebuffer/spring/data/jpa/tutorial/entity/Teacher$TeacherBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dailycodebuffer/spring/data/jpa/tutorial/entity/Teacher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dailycodebuffer/spring/data/jpa/tutorial/repository/CourseMaterialRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dailycodebuffer/spring/data/jpa/tutorial/repository/CourseRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dailycodebuffer/spring/data/jpa/tutorial/repository/CustomerRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dailycodebuffer/spring/data/jpa/tutorial/repository/CustomerRepository1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dailycodebuffer/spring/data/jpa/tutorial/repository/StudentRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dailycodebuffer/spring/data/jpa/tutorial/repository/TeacherRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-data-jpa-tutorial-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-data-jpa-tutorial-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.dailycodebuffer.spring.data.jpa.tutorial.repository.CourseRepositoryTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.dailycodebuffer.spring.data.jpa.tutorial.repository.CustomerRepositoryTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.dailycodebuffer.spring.data.jpa.tutorial.repository.TeacherRepositoryTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.dailycodebuffer.spring.data.jpa.tutorial.repository.CourseRepositoryTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.dailycodebuffer.spring.data.jpa.tutorial.repository.CustomerRepositoryTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.dailycodebuffer.spring.data.jpa.tutorial.repository.TeacherRepositoryTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/dailycodebuffer/spring/data/jpa/tutorial/repository/CourseMaterialRepositoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/dailycodebuffer/spring/data/jpa/tutorial/repository/CourseRepositoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/dailycodebuffer/spring/data/jpa/tutorial/repository/CustomerRepositoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/dailycodebuffer/spring/data/jpa/tutorial/repository/StudentRepositoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/dailycodebuffer/spring/data/jpa/tutorial/repository/TeacherRepositoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-data-jpa-single-file4/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-data-jpa-single-file4/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-data-jpa-single-file4/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-data-jpa-single-file4/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-data-jpa-single-file4/.idea/consolestorage/flexible_search_region.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-data-jpa-single-file4/.idea/consolestorage/solr_region.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-data-jpa-single-file4/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-data-jpa-single-file4/.idea/hybrisProjectSettings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-data-jpa-single-file4/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-data-jpa-single-file4/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-data-jpa-single-file4/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-data-jpa-single-file4/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-data-jpa-single-file4/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-data-jpa-single-file4/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-data-jpa-single-file4/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-data-jpa-single-file4/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-data-jpa-single-file4/src/main/java/com/dailycodebuffer/spring/data/jpa/tutorial/SpringDataJpaTutorialApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-data-jpa-single-file4/src/main/java/com/dailycodebuffer/spring/data/jpa/tutorial/entity/Address.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-data-jpa-single-file4/src/main/java/com/dailycodebuffer/spring/data/jpa/tutorial/entity/Course.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-data-jpa-single-file4/src/main/java/com/dailycodebuffer/spring/data/jpa/tutorial/entity/CourseMaterial.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-data-jpa-single-file4/src/main/java/com/dailycodebuffer/spring/data/jpa/tutorial/entity/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-data-jpa-single-file4/src/main/java/com/dailycodebuffer/spring/data/jpa/tutorial/entity/Customer1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-data-jpa-single-file4/src/main/java/com/dailycodebuffer/spring/data/jpa/tutorial/entity/Guardian.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-data-jpa-single-file4/src/main/java/com/dailycodebuffer/spring/data/jpa/tutorial/entity/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-data-jpa-single-file4/src/main/java/com/dailycodebuffer/spring/data/jpa/tutorial/entity/Teacher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-data-jpa-single-file4/src/main/java/com/dailycodebuffer/spring/data/jpa/tutorial/repository/CourseMaterialRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-data-jpa-single-file4/src/main/java/com/dailycodebuffer/spring/data/jpa/tutorial/repository/CourseRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-data-jpa-single-file4/src/main/java/com/dailycodebuffer/spring/data/jpa/tutorial/repository/CustomerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-data-jpa-single-file4/src/main/java/com/dailycodebuffer/spring/data/jpa/tutorial/repository/CustomerRepository1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-data-jpa-single-file4/src/main/java/com/dailycodebuffer/spring/data/jpa/tutorial/repository/StudentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-data-jpa-single-file4/src/main/java/com/dailycodebuffer/spring/data/jpa/tutorial/repository/TeacherRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-data-jpa-single-file4/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-data-jpa-single-file4/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-data-jpa-single-file4/src/test/java/com/dailycodebuffer/spring/data/jpa/tutorial/repository/CourseMaterialRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-data-jpa-single-file4/src/test/java/com/dailycodebuffer/spring/data/jpa/tutorial/repository/CourseRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-data-jpa-single-file4/src/test/java/com/dailycodebuffer/spring/data/jpa/tutorial/repository/CustomerRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-data-jpa-single-file4/src/test/java/com/dailycodebuffer/spring/data/jpa/tutorial/repository/StudentRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-data-jpa-single-file4/src/test/java/com/dailycodebuffer/spring/data/jpa/tutorial/repository/TeacherRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-data-jpa-single-file4/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-data-jpa-single-file4/target/classes/com/dailycodebuffer/spring/data/jpa/tutorial/SpringDataJpaTutorialApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-data-jpa-single-file4/target/classes/com/dailycodebuffer/spring/data/jpa/tutorial/entity/Address$AddressBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-data-jpa-single-file4/target/classes/com/dailycodebuffer/spring/data/jpa/tutorial/entity/Address.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-data-jpa-single-file4/target/classes/com/dailycodebuffer/spring/data/jpa/tutorial/entity/Course$CourseBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-data-jpa-single-file4/target/classes/com/dailycodebuffer/spring/data/jpa/tutorial/entity/Course.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-data-jpa-single-file4/target/classes/com/dailycodebuffer/spring/data/jpa/tutorial/entity/CourseMaterial$CourseMaterialBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-data-jpa-single-file4/target/classes/com/dailycodebuffer/spring/data/jpa/tutorial/entity/CourseMaterial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-data-jpa-single-file4/target/classes/com/dailycodebuffer/spring/data/jpa/tutorial/entity/Customer$CustomerBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-data-jpa-single-file4/target/classes/com/dailycodebuffer/spring/data/jpa/tutorial/entity/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-data-jpa-single-file4/target/classes/com/dailycodebuffer/spring/data/jpa/tutorial/entity/Customer1$Customer1Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-data-jpa-single-file4/target/classes/com/dailycodebuffer/spring/data/jpa/tutorial/entity/Customer1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-data-jpa-single-file4/target/classes/com/dailycodebuffer/spring/data/jpa/tutorial/entity/Guardian$GuardianBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-data-jpa-single-file4/target/classes/com/dailycodebuffer/spring/data/jpa/tutorial/entity/Guardian.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-data-jpa-single-file4/target/classes/com/dailycodebuffer/spring/data/jpa/tutorial/entity/Student$StudentBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-data-jpa-single-file4/target/classes/com/dailycodebuffer/spring/data/jpa/tutorial/entity/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-data-jpa-single-file4/target/classes/com/dailycodebuffer/spring/data/jpa/tutorial/entity/Teacher$TeacherBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-data-jpa-single-file4/target/classes/com/dailycodebuffer/spring/data/jpa/tutorial/entity/Teacher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-data-jpa-single-file4/target/classes/com/dailycodebuffer/spring/data/jpa/tutorial/repository/CourseMaterialRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-data-jpa-single-file4/target/classes/com/dailycodebuffer/spring/data/jpa/tutorial/repository/CourseRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-data-jpa-single-file4/target/classes/com/dailycodebuffer/spring/data/jpa/tutorial/repository/CustomerRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-data-jpa-single-file4/target/classes/com/dailycodebuffer/spring/data/jpa/tutorial/repository/CustomerRepository1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-data-jpa-single-file4/target/classes/com/dailycodebuffer/spring/data/jpa/tutorial/repository/StudentRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-data-jpa-single-file4/target/classes/com/dailycodebuffer/spring/data/jpa/tutorial/repository/TeacherRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-data-jpa-single-file4/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-data-jpa-single-file4/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-data-jpa-single-file4/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-data-jpa-single-file4/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-data-jpa-single-file4/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-data-jpa-single-file4/target/spring-data-jpa-tutorial-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-data-jpa-single-file4/target/spring-data-jpa-tutorial-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-data-jpa-single-file4/target/surefire-reports/TEST-com.dailycodebuffer.spring.data.jpa.tutorial.repository.CourseRepositoryTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-data-jpa-single-file4/target/surefire-reports/TEST-com.dailycodebuffer.spring.data.jpa.tutorial.repository.CustomerRepositoryTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-data-jpa-single-file4/target/surefire-reports/TEST-com.dailycodebuffer.spring.data.jpa.tutorial.repository.TeacherRepositoryTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-data-jpa-single-file4/target/surefire-reports/com.dailycodebuffer.spring.data.jpa.tutorial.repository.CourseRepositoryTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-data-jpa-single-file4/target/surefire-reports/com.dailycodebuffer.spring.data.jpa.tutorial.repository.CustomerRepositoryTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-data-jpa-single-file4/target/surefire-reports/com.dailycodebuffer.spring.data.jpa.tutorial.repository.TeacherRepositoryTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-data-jpa-single-file4/target/test-classes/com/dailycodebuffer/spring/data/jpa/tutorial/repository/CourseMaterialRepositoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-data-jpa-single-file4/target/test-classes/com/dailycodebuffer/spring/data/jpa/tutorial/repository/CourseRepositoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-data-jpa-single-file4/target/test-classes/com/dailycodebuffer/spring/data/jpa/tutorial/repository/CustomerRepositoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-data-jpa-single-file4/target/test-classes/com/dailycodebuffer/spring/data/jpa/tutorial/repository/StudentRepositoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-data-jpa-single-file4/target/test-classes/com/dailycodebuffer/spring/data/jpa/tutorial/repository/TeacherRepositoryTest.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/../spring-data-jpa-single-file4">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="spring-data-jpa-single-file1" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="spring-data-jpa-single-file1" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="spring-data-jpa-single-file1" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2qv29ZzIgjJVA5mZ1XWz49gYyXl" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.spring-data-jpa-single-file1 [:com.dailycodebuffer.spring.data.jpa.tutorial.SpringDataJpaTutorialApplication1.main()].executor": "Debug",
+    "Gradle.spring-data-jpa-single-file1 [build].executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.38390803",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.SpringDataJpaTutorialApplication1">
+    <configuration name="SpringDataJpaTutorialApplication1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dailycodebuffer.spring.data.jpa.tutorial.SpringDataJpaTutorialApplication1" />
+      <module name="spring-data-jpa-single-file1.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dailycodebuffer.spring.data.jpa.tutorial.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="spring-data-jpa-single-file1 [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.spring-data-jpa-single-file1 [build]" />
+        <item itemvalue="Application.SpringDataJpaTutorialApplication1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+</project>
