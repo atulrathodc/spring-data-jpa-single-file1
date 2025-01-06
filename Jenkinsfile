@@ -15,12 +15,21 @@ pipeline {
                 sh './gradlew clean build'
             }
         }
-        stage('SonarQube Analysis') {
-            steps {
-                // Execute SonarQube analysis
-                withSonarQubeEnv('SonarQubeServer') { // Replace with your SonarQube server name configured in Jenkins
-                    sh './gradlew sonarqube -Dsonar.host.url=$SONAR_HOST_URL -Dsonar.login=$SONAR_TOKEN'
+      stage("Sonarqube Analysis "){
+            steps{
+                withSonarQubeEnv('sonar-server') {
+                    sh ''' $SCANNER_HOME/bin/sonar-scanner -Dsonar.projectName=ABC \
+                    -Dsonar.java.binaries=. \
+                    -Dsonar.projectKey=ABC '''
+
                 }
+            }
+        }
+
+        stage("OWASP Dependency Check"){
+            steps{
+                dependencyCheck additionalArguments: '--scan ./ --format HTML ', odcInstallation: 'DP'
+                dependencyCheckPublisher pattern: '**/dependency-check-report.xml'
             }
         }
         stage("Quality Gate Check") {
