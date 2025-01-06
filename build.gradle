@@ -63,6 +63,12 @@ sonarqube {
         property "sonar.jacoco.reportPaths", "${buildDir}/reports/jacoco/test/jacocoTestReport.xml"
     }
 }
+
+sonarqube {
+    properties {
+        property "sonar.coverage.jacoco.xmlReportPaths", "build/reports/jacoco/test/jacocoTestReport.xml"
+    }
+}
 dependencies {
 //    implementation sourceSets.main.output
 //    implementation files(sourceSets.main.runtimeClasspath)
