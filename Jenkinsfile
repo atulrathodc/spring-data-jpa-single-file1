@@ -15,16 +15,16 @@ pipeline {
                 sh './gradlew clean build'
             }
         }
-      stage("Sonarqube Analysis "){
-            steps{
-                withSonarQubeEnv('sonar-server') {
-                    sh ''' $SCANNER_HOME/bin/sonar-scanner -Dsonar.projectName=ABC \
-                    -Dsonar.java.binaries=. \
-                    -Dsonar.projectKey=ABC '''
-
-                }
-            }
+  stage('Static Code Analysis') {
+      environment {
+        SONAR_URL = "http://localhost:9000"
+      }
+      steps {
+        withCredentials([string(credentialsId: 'sonarqube', variable: 'SONAR_AUTH_TOKEN')]) {
+          sh 'gradle build && gradle sonar -Dsonar.login=SONAR_TOKEN -Dsonar.host.url=${SONAR_URL}'
         }
+      }
+    }
 
         stage("OWASP Dependency Check"){
             steps{

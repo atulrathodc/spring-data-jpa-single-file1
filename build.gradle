@@ -5,6 +5,7 @@ plugins {
     id 'org.sonarqube' version '4.4.1.3373'
     id 'jacoco'
 }
+apply from: './plugins.gradle'
 
 group = 'com.learnkafkastreams'
 version = '0.0.1-SNAPSHOT'
@@ -58,17 +59,14 @@ jacocoTestReport {
     }
 }
 
-sonarqube {
-    properties {
-        property "sonar.jacoco.reportPaths", "${buildDir}/reports/jacoco/test/jacocoTestReport.xml"
-    }
-}
 
 sonarqube {
     properties {
         property "sonar.coverage.jacoco.xmlReportPaths", "build/reports/jacoco/test/jacocoTestReport.xml"
     }
 }
+
+
 dependencies {
 //    implementation sourceSets.main.output
 //    implementation files(sourceSets.main.runtimeClasspath)
