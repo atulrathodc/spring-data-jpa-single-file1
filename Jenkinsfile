@@ -2,6 +2,7 @@ pipeline {
     agent any
     environment {
         SONAR_TOKEN = credentials('sqp_3b453fb5f3e71f70170588d8c34651a8fd32e876') // Replace with your Jenkins credential ID for SonarQube token
+        SONAR_HOST_URL = 'http://localhost:9000/'
     }
     stages {
         stage('Build') {
@@ -14,7 +15,7 @@ pipeline {
             steps {
                 // Execute SonarQube analysis
                 withSonarQubeEnv('SonarQubeServer') { // Replace with your SonarQube server name configured in Jenkins
-                    sh './gradlew sonarqube -Dsonar.login=$SONAR_TOKEN'
+                    sh './gradlew sonarqube -Dsonar.host.url=$SONAR_HOST_URL -Dsonar.login=$SONAR_TOKEN'
                 }
             }
         }

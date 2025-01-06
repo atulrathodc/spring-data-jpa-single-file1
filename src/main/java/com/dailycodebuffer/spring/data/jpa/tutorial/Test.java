@@ -1,9 +1,13 @@
 package com.dailycodebuffer.spring.data.jpa.tutorial;
+import java.text.MessageFormat;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
 
 import java.security.SecureRandom;
-import java.util.Base64;
 
 public class Test {
+    static Logger log = Logger.getLogger(Test.class.getName());
     public static void main(String[] args) {
         SecureRandom random = new SecureRandom();
         byte[] bytes = new byte[20];
@@ -11,8 +15,9 @@ public class Test {
 
         // Convert to Hex String
         int randomIntInRange = random.nextInt(10);
-        System.out.println("Random Integer (0 to " + (10 - 1) + "): " + randomIntInRange);
+        if (log.isLoggable(Level.INFO)) {
+            log.info("Random " + randomIntInRange);
+        }
 
-//        System.out.println("Random Base64: " + base64String);
     }
 }
