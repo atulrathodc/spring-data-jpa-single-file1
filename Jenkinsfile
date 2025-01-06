@@ -12,6 +12,7 @@ pipeline {
         stage('Build') {
             steps {
                 // Run Gradle build
+                sh 'echo "Running Gradle build..."'
                 sh './gradlew clean build'
             }
         }
