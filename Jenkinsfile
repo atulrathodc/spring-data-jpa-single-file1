@@ -2,7 +2,7 @@ pipeline {
     agent any
     tools {
         jdk 'jdk' // Use the JDK version configured in Jenkins
-        gradle 'Gradle8' // Use the Gradle version configured in Jenkins
+        gradle 'gradle8' // Use the Gradle version configured in Jenkins
     }
     environment {
         SONAR_TOKEN = credentials('sqp_3b453fb5f3e71f70170588d8c34651a8fd32e876') // Replace with your Jenkins credential ID for SonarQube token
