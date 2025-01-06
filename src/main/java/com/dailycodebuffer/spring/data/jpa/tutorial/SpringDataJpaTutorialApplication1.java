@@ -66,6 +66,7 @@ import org.springframework.web.reactive.function.client.WebClient;
 
 import java.io.*;
 import java.nio.charset.StandardCharsets;
+import java.security.SecureRandom;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Random;
@@ -470,7 +471,16 @@ class KafkaConsumer {
 	}
 
 	public void sendMessage(String topic, String message) throws ExecutionException, InterruptedException {
-		int randomInt = (int)(1 + (Math.random() * (9 - 1)));
+
+
+		SecureRandom random = new SecureRandom();
+		byte[] bytes = new byte[20];
+		random.nextBytes(bytes);
+
+		// Convert to Hex String
+		int randomIntInRange = random.nextInt(10);
+		System.out.println("Random Integer (0 to " + (10 - 1) + "): " + randomIntInRange);
+		int randomInt = randomIntInRange;
 //		kafkaTemplate.send(topic,"key"+randomInt, message);
 		SendResult<String, String> result = kafkaTemplate.send(topic,"key"+randomInt, message).get();
 		System.out.printf("Message sent successfully to topic %s, partition %d, offset %d%n",

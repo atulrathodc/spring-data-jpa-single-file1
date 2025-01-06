@@ -1,25 +1,36 @@
 pipeline {
     agent any
-
+    environment {
+        SONAR_TOKEN = credentials('sqp_3b453fb5f3e71f70170588d8c34651a8fd32e876') // Replace with your Jenkins credential ID for SonarQube token
+    }
     stages {
         stage('Build') {
             steps {
-                echo 'Building...'
-                sh './gradlew build' // Replace with your build command
+                // Run Gradle build
+                sh './gradlew clean build'
             }
         }
-
-        stage('Test') {
+        stage('SonarQube Analysis') {
             steps {
-                echo 'Testing...'
-                sh './gradlew test' // Replace with your test command
+                // Execute SonarQube analysis
+                withSonarQubeEnv('SonarQubeServer') { // Replace with your SonarQube server name configured in Jenkins
+                    sh './gradlew sonarqube -Dsonar.login=$SONAR_TOKEN'
+                }
             }
         }
-
-        stage('Deploy') {
+        stage("Quality Gate Check") {
             steps {
-                echo 'Deploying...'
-                sh './deploy.sh' // Replace with your deploy command
+                // Check SonarQube Quality Gate status
+                timeout(time: 2, unit: 'MINUTES') {
+                    waitForQualityGate abortPipeline: true
+                }
+            }
+        }
+        stage('Post-Quality Gate Build') {
+            steps {
+                // Proceed with subsequent build steps if the quality gate passes
+                echo 'Quality Gate passed. Proceeding with the build...'
+                sh './gradlew package' // Example additional build task
             }
         }
     }
