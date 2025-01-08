@@ -5,7 +5,7 @@ pipeline {
         gradle 'gradle8' // Use the Gradle version configured in Jenkins
     }
     environment {
-        SONAR_TOKEN = credentials('sqp_3b453fb5f3e71f70170588d8c34651a8fd32e876') // Jenkins credential ID for SonarQube token
+        SONAR_TOKEN = credentials('key2') // Jenkins credential ID for SonarQube token
         SONAR_HOST_URL = 'http://localhost:9000/'
     }
     stages {
