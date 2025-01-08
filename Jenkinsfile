@@ -18,7 +18,7 @@ pipeline {
         }
         stage('Static Code Analysis') {
             steps {
-                withSonarQubeEnv('SonarQube') { // Replace 'SonarQube' with the correct SonarQube installation name
+                withSonarQubeEnv('sonar') { // Replace 'SonarQube' with the correct SonarQube installation name
                     sh "./gradlew sonarqube -Dsonar.host.url=${env.SONAR_HOST_URL} -Dsonar.login=${env.SONAR_TOKEN}"
                 }
             }
