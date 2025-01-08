@@ -9,11 +9,11 @@ public class SpringDataJpasTutorialApplicationTest {
     void contextLoads() {
         // This test ensures the Spring application context loads successfully
     }
-//    @Test
-//    void testMainMethod() throws JsonProcessingException {
-//        // Call the main method to ensure it runs without issues
-//        SpringDataJpaTutorialApplication1.main(new String[] {});
-//    }
+    @Test
+    void testMainMethod() throws JsonProcessingException {
+        // Call the main method to ensure it runs without issues
+        SpringDataJpaTutorialApplication1.main(new String[] {});
+    }
     @Test
     public void testAdd() {
         SpringDataJpaTutorialApplication1 app = new SpringDataJpaTutorialApplication1();
