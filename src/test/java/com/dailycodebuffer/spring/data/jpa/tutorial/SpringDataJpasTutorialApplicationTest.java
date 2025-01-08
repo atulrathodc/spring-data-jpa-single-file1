@@ -15,12 +15,12 @@ public class SpringDataJpasTutorialApplicationTest {
         SpringDataJpaTutorialApplication1.main(new String[] {});
     }
     @Test
-    public void testAdd() {
+     void testAdd() {
         SpringDataJpaTutorialApplication1 app = new SpringDataJpaTutorialApplication1();
         assert(app.add(1, 2) == 3);
     }
     @Test
-    public void multi() {
+     void multi() {
         SpringDataJpaTutorialApplication1 app = new SpringDataJpaTutorialApplication1();
         assert(app.multi(1, 2) == 3);
     }
