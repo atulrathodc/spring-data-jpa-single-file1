@@ -3,26 +3,30 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 @SpringBootTest
-public class SpringDataJpasTutorialApplicationTest {
+class SpringDataJpasTutorialApplicationTest {
     @Test
     void contextLoads() {
         // This test ensures the Spring application context loads successfully
     }
     @Test
-    void testMainMethod() throws JsonProcessingException {
+    void testMainMethod(){
         // Call the main method to ensure it runs without issues
+        SpringDataJpaTutorialApplication1 app = new SpringDataJpaTutorialApplication1();
         SpringDataJpaTutorialApplication1.main(new String[] {});
+        assertEquals(3, app.add(1, 2), "The addition result should be 5");
     }
     @Test
      void testAdd() {
         SpringDataJpaTutorialApplication1 app = new SpringDataJpaTutorialApplication1();
-        assert(app.add(1, 2) == 3);
+        assertEquals(3, app.add(1, 2), "The addition result should be 5");
     }
     @Test
      void multi() {
         SpringDataJpaTutorialApplication1 app = new SpringDataJpaTutorialApplication1();
-        assert(app.multi(1, 2) == 3);
+        assertEquals(3, app.multi(1, 2), "The addition result should be 5");
     }
 
 }
