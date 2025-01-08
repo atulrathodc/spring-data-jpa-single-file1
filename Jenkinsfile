@@ -19,9 +19,9 @@ pipeline {
         stage('Static Code Analysis') {
             steps {
                 withSonarQubeEnv('sonar') { // Replace 'SonarQube' with the correct SonarQube installation name
-                    echo 'Running SonarQube Analysis...'
+                    sh "echo 'Running SonarQube Analysis...' ""
                     sh "./gradlew sonar -Dsonar.host.url=${env.SONAR_HOST_URL} -Dsonar.login=${env.SONAR_TOKEN}"
-                    echo 'SonarQube analysis triggered. Waiting for Quality Gate..."
+                    sh "echo 'SonarQube analysis triggered. Waiting for Quality Gate...'"
                 }
             }
         }
