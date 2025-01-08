@@ -20,13 +20,14 @@ pipeline {
             steps {
                 withSonarQubeEnv('sonar') { // Replace 'SonarQube' with the correct SonarQube installation name
                     sh "./gradlew sonarqube -Dsonar.host.url=${env.SONAR_HOST_URL} -Dsonar.login=${env.SONAR_TOKEN}"
+                    sh "echo 'SonarQube analysis triggered. Waiting for Quality Gate..."
                 }
             }
         }
         stage('Quality Gate Check') {
             steps {
                 script {
-                    def qualityGate = waitForQualityGate(abortPipeline: false, credentialsId: 'key2')
+                    def qualityGate = waitForQualityGate(abortPipeline: true, credentialsId: 'key2')
                     if (qualityGate.status != 'OK') {
                         echo "Quality Gate failed with status: ${qualityGate.status}"
                         // Optionally take other actions based on failure
