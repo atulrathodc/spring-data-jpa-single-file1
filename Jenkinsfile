@@ -20,7 +20,7 @@ pipeline {
             steps {
                 withSonarQubeEnv('sonar') { // Replace 'sonar' with the correct SonarQube installation name
                     sh "echo 'Running SonarQube Analysis...'"
-                    sh "./gradlew sonarqube -Dsonar.host.url=${env.SONAR_HOST_URL} -Dsonar.login=${env.SONAR_TOKEN}"
+                    sh "./gradlew sonar -Dsonar.host.url=${env.SONAR_HOST_URL} -Dsonar.login=${env.SONAR_TOKEN}"
                     sh "echo 'SonarQube analysis triggered. Waiting for Quality Gate...'"
                 }
             }
